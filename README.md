@@ -44,6 +44,11 @@ This project is a Node.js server application that provides CRUD (Create, Read, U
    ```
 
 4. Set up environment variables:
+   ## Environmental Variables
+
+In Node.js version 20 and above, the `dotenv` package has been integrated directly into Node.js. This means that you no longer need to explicitly install and import `dotenv` in your Node.js applications. Instead, Node.js automatically loads environment variables from a `.env` file located in the root directory of your project.
+
+If you're using Node.js v20 or higher, ensure that you have a `.env` file in your project's root directory and define your environment variables there. Node.js will automatically load these variables into `process.env` when your application starts.
 
    - Create a `.env` file in the root directory.
    - Define the following variables:
