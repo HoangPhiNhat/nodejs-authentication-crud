@@ -19,7 +19,7 @@ This project is a Node.js server application that provides CRUD (Create, Read, U
 - **JSON Web Tokens (JWT)**: Used for secure authentication and authorization.
 - **bcrypt.js**: Library for hashing passwords securely.
 - **cors**: A middleware for Express.js that enables Cross-Origin Resource Sharing (CORS) to allow client-side code running in a web browser to make requests to your server from a different origin.
-- **joi**: A schema description language and validator for JavaScript objects, commonly used for validating request data in Express.js applications.
+- **joi**: A JavaScript schema description language and validator, commonly utilized for validating request data in Express.js applications.
 
 ### Development:
 - **nodemon**: A utility that monitors changes in your source code and automatically restarts the server when changes are detected, facilitating the development process.
