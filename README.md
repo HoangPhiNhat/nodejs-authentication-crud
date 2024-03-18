@@ -50,6 +50,26 @@ In Node.js version 20 and above, the `dotenv` package has been integrated direct
 
 If you're using Node.js v20 or higher, ensure that you have a `.env` file in your project's root directory and define your environment variables there. Node.js will automatically load these variables into `process.env` when your application starts.
 
+```markdown
+## Usage with Node.js versions prior to v20
+
+If you're using an older version of Node.js or if you prefer to use `dotenv` explicitly, follow these steps:
+
+1. Install `dotenv` as a separate package:
+
+```bash
+npm install dotenv
+```
+
+2. Import and configure `dotenv` in your application:
+
+```javascript
+require('dotenv').config();
+```
+
+This should be done as early as possible in your application's startup process, preferably at the entry point of your application.
+```
+
    - Create a `.env` file in the root directory.
    - Define the following variables:
 
