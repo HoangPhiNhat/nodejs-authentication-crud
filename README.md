@@ -1,6 +1,5 @@
 # nodejs-authentication-crud
 
-```markdown
 # Node.js Authentication & CRUD Project
 
 This project is a Node.js server application that provides CRUD (Create, Read, Update, Delete) functionality along with user authentication features such as SignUp, SignIn, and Authorization. It serves as a foundation for building web applications with user management and data manipulation capabilities.
