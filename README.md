@@ -1,5 +1,4 @@
 # nodejs-authentication-crud
-Dĩ nhiên, dưới đây là một mẫu README.md cho dự án của bạn:
 
 ```markdown
 # Node.js Authentication & CRUD Project
