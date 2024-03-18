@@ -64,10 +64,9 @@ npm install dotenv
 2. Import and configure `dotenv` in your application:
 
 ```javascript
-require('dotenv').config();
-```
+import dotenv from "dotenv";
+dotenv.config();
 
-This should be done as early as possible in your application's startup process, preferably at the entry point of your application.
 ```
 
    - Create a `.env` file in the root directory.
