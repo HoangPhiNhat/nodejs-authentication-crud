@@ -18,13 +18,18 @@ This project is a Node.js server application that provides CRUD (Create, Read, U
 - **MongoDB**: A NoSQL database for storing application data.
 - **JSON Web Tokens (JWT)**: Used for secure authentication and authorization.
 - **bcrypt.js**: Library for hashing passwords securely.
+- **cors**: A middleware for Express.js that enables Cross-Origin Resource Sharing (CORS) to allow client-side code running in a web browser to make requests to your server from a different origin.
+- **joi**: A schema description language and validator for JavaScript objects, commonly used for validating request data in Express.js applications.
+
+### Development:
+- **nodemon**: A utility that monitors changes in your source code and automatically restarts the server when changes are detected, facilitating the development process.
 
 ## Installation
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/nodejs-authentication-crud.git
+   git clone https://github.com/HoangPhiNhat/nodejs-authentication-crud
    ```
 
 2. Navigate to the project directory:
@@ -46,8 +51,8 @@ This project is a Node.js server application that provides CRUD (Create, Read, U
 
      ```plaintext
      PORT=3000
-     MONGODB_URI=your_mongodb_connection_string
-     JWT_SECRET=your_jwt_secret_key
+     DB_URI=your_mongodb_connection_string
+     SECRET_CODE=your_jwt_secret_key
      ```
 
 5. Start the server:
@@ -64,9 +69,3 @@ This project is a Node.js server application that provides CRUD (Create, Read, U
 
 Contributions are welcome! Please feel free to open issues or submit pull requests for any improvements or new features.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-Hãy cập nhật các phần như "yourusername", "your_mongodb_connection_string", và "your_jwt_secret_key" với các giá trị thích hợp cho dự án của bạn. Đồng thời, hãy điều chỉnh phần "Technologies Used", "Installation", và "Usage" để phản ánh cụ thể hơn về công nghệ và cách sử dụng dự án của bạn.
