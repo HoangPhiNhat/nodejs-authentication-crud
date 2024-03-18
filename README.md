@@ -1,4 +1,3 @@
-# nodejs-authentication-crud
 
 # Node.js Authentication & CRUD Project
 
